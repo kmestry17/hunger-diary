@@ -1,4 +1,5 @@
 import React from "react";
+import "./RecipeView.css";
 
 const RecipeView = ({ recipe, onViewClick }) => {
   return (

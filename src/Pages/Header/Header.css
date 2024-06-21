@@ -1,4 +1,7 @@
-/* Header.css */
+.logo img{
+    width: 22rem;
+    height: 75px;
+}
 
 .header-container {
   display: flex;
@@ -7,7 +10,7 @@
   padding: 1rem 2rem;
   background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for some depth */
-  position: fixed;
+  position: relative;
   width: 100%;
   top: 0;
   left: 0;

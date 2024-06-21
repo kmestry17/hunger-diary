@@ -23,21 +23,29 @@ body {
   font-family: "Spline Sans", sans-serif;
   line-height: 1.5;
   min-height: 100vh;
-  background-color: var(--c-ash);
+  background-image: url('/public/images/biryani.jpg');
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+/* Hide scrollbar but keep scrolling functionality */
+body::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar space */
+  background: transparent;  /* Optional: transparent background */
 }
 
 article{
   box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
 }
 
-.cards{
-  margin-top: 90px;
-}
-
 .card {
+  margin-top: 0.75rem;
   border-radius: 16px;
-  max-width: 700px;
-  margin-left: 50px;
+  max-width: 725px;
+  margin-left: 0.35rem;
+  opacity: 0.9;
 }
 
 .information {
@@ -66,6 +74,7 @@ article{
 .info {
   color: var(--c-charcoal);
   margin-top: 1.25rem;
+  margin-left: 0.7rem;
 }
 
 .button {
@@ -87,5 +96,27 @@ article{
 .button:hover,
 .button:focus {
   background-color: var(--c-indigo);
+  color: var(--c-white);
+}
+
+.close-button{
+  font: inherit;
+  line-height: 1;
+  background-color: var(--c-white);
+  border: 2px solid var(--c-beige);
+  color: var(--c-beige);
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
+}
+
+.close-button:hover,
+.close-button:focus {
+  background-color: var(--c-beige);
   color: var(--c-white);
 }

@@ -5,7 +5,9 @@ const Header = () => {
   return (
     <div>
       <div className="header-container">
-        <h1>Hunger Diary Co.</h1>
+        <div className="logo">
+          <img src="/images/logo.png" alt="logo" />
+        </div>
         <nav>
           <a href="#">Home</a>
           <a href="#">About Us</a>
