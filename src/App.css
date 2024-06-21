@@ -1,38 +1,91 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300;400;500;600;700&display=swap");
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --c-white: #fff;
+  --c-black: #000;
+
+  --c-ash: #eaeef6;
+  --c-charcoal: #a0a0a0;
+  --c-void: #141b22;
+
+  --c-titan-white: #f1eeff;
+  --c-indigo: #6558d3;
+  --c-beige: #d9a925;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+body {
+  font-family: "Spline Sans", sans-serif;
+  line-height: 1.5;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  background-color: var(--c-ash);
+}
+
+article{
+  box-shadow: 0 30px 30px -25px rgba(65, 51, 183, 0.25);
+}
+
+.cards{
+  margin-top: 90px;
+}
+
+.card {
+  border-radius: 16px;
+  max-width: 700px;
+  margin-left: 50px;
+}
+
+.information {
+  background-color: var(--c-white);
+  padding: 1.5rem;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--c-titan-white);
+  color: var(--c-indigo);
+  font-weight: 600;
+  font-size: 1.7rem;
+  padding: 0.5em 0.75em;
+  line-height: 1;
+  border-radius: 6px;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: var(--c-void);
+  line-height: 1.25;
+  margin-top: 1rem;
+}
+
+.info {
+  color: var(--c-charcoal);
+  margin-top: 1.25rem;
+}
+
+.button {
+  font: inherit;
+  line-height: 1;
+  background-color: var(--c-white);
+  border: 2px solid var(--c-indigo);
+  color: var(--c-indigo);
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  font-weight: 500;
+  display: inline-flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1.25rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button:hover,
+.button:focus {
+  background-color: var(--c-indigo);
+  color: var(--c-white);
 }

@@ -1,0 +1,39 @@
+/* Header.css */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for some depth */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header-container h1 {
+  font-size: 1.75rem;
+  color: var(--c-beige);
+  margin: 0;
+  font-style: italic;
+}
+
+.header-container nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.header-container nav a {
+  color: #555; /* Slightly lighter color for links */
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.header-container nav a:hover {
+  color: #000; /* Darker color on hover */
+}

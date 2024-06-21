@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Spaghetti",
+    "description": "Spaghetti is a long, thin, solid, cylindrical pasta.",
+    "ingredients": ["Spaghetti", "Tomato Sauce", "Meatballs"],
+    "PreparationTime": "30 minutes",
+    "CookTime": "30 minutes",
+    "TotalTime": "1 hour",
+    "Servings": "4",
+    "Calories": "500",
+    "Instructions": ["Cook the spaghetti, make the sauce, and serve.", "Enjoy!"]
+  },
+  {
+    "name": "Pizza",
+    "description": "Pizza is a savory dish of Italian origin.",
+    "ingredients": ["Dough", "Tomato Sauce", "Cheese", "Pepperoni"],
+    "PreparationTime": "30 minutes",
+    "CookTime": "15 minutes",
+    "TotalTime": "45 minutes",
+    "Servings": "8",
+    "Calories": "300",
+    "Instructions": ["Make the dough, add the toppings, and bake.", "Enjoy!"]
+  },
+  {
+    "name": "Burger",
+    "description": "A hamburger is a sandwich consisting of one or more cooked patties of ground meat.",
+    "ingredients": ["Buns", "Beef Patty", "Lettuce", "Tomato", "Onion"],
+    "PreparationTime": "15 minutes",
+    "CookTime": "10 minutes",
+    "TotalTime": "25 minutes",
+    "Servings": "4",
+    "Calories": "400",
+    "Instructions": ["Cook the patty, assemble the burger, and serve.", "Enjoy!"]
+  }
+]
